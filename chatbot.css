@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #efefef;
+}
+a span{
+    font-size: 40px;
+    font-weight: 660;
+}
+a span:nth-child(2){
+    color: orange;
+    text-indent: 10px;
+}
+#botImg img{
+    height: 50px;
+    width: 50px;
+}
+#botImg{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+  
+}
+#cnt{
+   /* border: 2px solid red; */
+   position: fixed;
+   width: 30%;
+    top: 0;
+    left: 30%;
+    display: none;
+    z-index: 2000;
+}
+#cross{
+    cursor: pointer;
+}
+#chatCnt{
+    height: 400px;
+    /* border: 2px solid red; */
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* #chatCnt::-webkit-scrollbar{
+    display: none;
+} */
